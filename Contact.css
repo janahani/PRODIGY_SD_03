@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f0f0f0, #d3d3d3); /* Light to medium grey gradient */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+    .container {
+      text-align: center;
+    }
+    
+    h1 {
+      color: darkblue;
+    }
+    
+    .contact-card {
+      border-radius: 5px;
+      padding: 20px;
+      margin-top: 20px;
+      max-width: 400px; 
+    }
+    
+    .input-group {
+      margin-bottom: 15px;
+      text-align: left; 
+    }
+    
+    .input-group label {
+      display: block;
+      margin-bottom: 5px;
+      color:darkblue;
+    }
+    
+    .input-group input {
+      width: calc(100% - 20px); 
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    .buttons a {
+      padding: 12px 20px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      text-decoration: none; 
+      display: inline-block; 
+  }
+  
+  .submit-btn, .delete-btn, .edit-btn {
+      padding: 12px 20px; 
+      margin-right: 10px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+  }
+  
+  .edit-btn,.submit-btn {
+      background-color: #3498db;
+      color: #fff;
+  }
+  
+  .delete-btn {
+      background-color: #e74c3c;
+      color: #fff;
+  }
+  
+  .error{
+    color:red;
+    text-align: left; 
+  }
